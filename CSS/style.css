@@ -1,7 +1,72 @@
 * {
-    --cream: #D7C797;
+    --sum_green: #e2f4c7;
+    --sum_orange: #fc913a;
+    --sum_yellow: #f9d62e;
+    --sum_lime: #eae374;
+    color: black;
 }
 body {
-    background-color: var(--cream);
+    min-height: 100vh;
+    background-color: var(--sum_green);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
 
+}
+
+header {
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+nav {
+    height: 50px;
+    width: 100%;
+    padding-top: 28px;
+    background-color: var(--sum_yellow);
+    flex-wrap: wrap;
+    justify-content: center;  
+    border-radius: 20px;
+}
+
+nav a {
+    padding: 0.6rem;
+}
+
+section {
+    height: 790px;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-image: url(/images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg), url(/images/caspar-camille-rubin-89xuP-XmyrA-unsplash.jpg),url(/images/tottenham.png),url(/images/tino-rischawy-VRRnDzxZB0M-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: left top, right top, right bottom, left bottom;
+    background-size: 190px 200px;
+    
+       
+}
+
+section p {
+    font-size: xx-large;
+    padding-top: 330px;
+}
+
+footer {
+    margin-top: auto;
+    height: 40px;
+    width: 100%;
+    padding-top: 10px;
+    background-color: var(--sum_yellow);
+    border-radius: 20px;
+}
+
+footer a:hover, nav a:hover {
+    background-color: var(--sum_green);
+    padding: 0.6rem;
 }
