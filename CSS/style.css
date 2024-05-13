@@ -1,0 +1,7 @@
+* {
+    --cream: #D7C797;
+}
+body {
+    background-color: var(--cream);
+
+}
