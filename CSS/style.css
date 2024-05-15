@@ -32,13 +32,21 @@ nav a {
     position:relative;
 }
 
-.cen_txt {
+h1 {
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: xx-large;
-    font-weight: 700;
+    
+}
+#cen_txt {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-style: italic;
+    font-size: small;
+    font-weight:700;
 }
 
 .back_img {
