@@ -17,6 +17,13 @@ body {
 }
 h1 {
     color: var(--bars);
+    background-color: var(--background);
+    padding: 12px;
+    border-style: outset;
+    border-color: orange;
+    border-width: 4px;
+    border-radius: 20px;
+    box-shadow: 0 0 24px 20px var(--bars);
 }
 
 nav {
@@ -63,6 +70,8 @@ footer a:hover, nav a:hover {
     background-color: var(--background);
     color: var(--bars);
     padding: 0.6rem;
+    border-radius: 20px;
+    box-shadow: 0 0 28px 24px;
 }
 
 @media screen and (min-width: 600px) {
@@ -75,6 +84,8 @@ footer a:hover, nav a:hover {
         background-color: var(--background);
         color: var(--bars);
         padding: 1.8rem;
+        border-radius: 20px;
+        box-shadow: 0 0 28px 24px;
     }
     
 }
