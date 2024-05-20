@@ -1,0 +1,113 @@
+* {
+    --background: #6b3e26;
+    --bars: #ffcb85;
+    --boxes:#fdf5c9;
+    color: #6b3e26;
+}
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+h1 {
+    color: var(--bars);
+    background-color: var(--background);
+    padding: 12px;
+    border-style: outset;
+    border-color: orange;
+    border-width: 4px;
+    border-radius: 20px;
+    box-shadow: 0 0 24px 20px var(--bars);
+}
+h2 {
+    margin: 0;
+    color: var(--bars);
+    background-color: var(--background);
+    padding: 8px;
+    border-style: ridge;
+    border-color: orange;
+    border-width: 4px;
+    border-radius: 20px;
+}
+
+nav {
+    height: 50px;
+    width: 100%;
+    padding-top: 28px;
+    background-color: var(--bars);
+}
+
+nav a, footer a {
+    padding: 0.6rem;
+    text-decoration: none;
+}
+
+.con-details {
+    background-color: var(--boxes);
+    padding: 0.5rem;
+    width: 75%;
+    margin-top: 20dvw;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 8px 4px var(--bars);
+}
+
+footer {
+    width: 100%;
+    padding: 0;
+    margin-top: auto;
+    height: 40px;
+    padding-top: 10px;
+    background-color: var(--bars);
+    text-decoration: none;
+}
+
+footer a:hover, nav a:hover {
+    background-color: var(--background);
+    color: var(--bars);
+    padding: 0.6rem;
+    border-radius: 20px;
+    box-shadow: 0 0 28px 24px;
+}
+
+@media screen and (min-width: 600px) {
+    header {
+        gap: 52px;
+    }
+    nav a, footer a {
+        padding: 1.8rem;
+        font-size: x-large;
+        font-weight: 600;
+    }
+    footer a:hover, nav a:hover {
+        background-color: var(--background);
+        color: var(--bars);
+        padding: 1.8rem;
+        border-radius: 20px;
+        box-shadow: 0 0 28px 24px;
+    }
+    .con-details {
+        width: 700px;
+        margin-top: 2dvw;
+        margin-bottom: 2dvw;
+        font-size: x-large;
+    }
+    
+}
