@@ -1,13 +1,17 @@
 * {
-    --background: #6b3e26;
-    --bars: #ffcb85;
+    /* Ice cream Color Palette */
+    --chocolate: #6b3e26;
+    --mandarin: #ffcb85;
+    --peppermint:#c2f2d0;
+    --strawberry: #ffc5d9;
+    --cream: #fdf5c9;
     color: #6b3e26;
 }
 body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
-    background-color: var(--background);
+    background-color: var(--chocolate);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     display: flex;
@@ -20,7 +24,7 @@ nav {
     height: 52px;
     width: 100%;
     padding-top: 28px;
-    background-color: var(--bars);
+    background-color: var(--mandarin);
 }
 
 nav a, footer a {
@@ -32,16 +36,22 @@ nav a, footer a {
     position: relative;  
 }
 
-h1 {
+div img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+div {
     position: absolute;
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: var(--bars);
-    padding: 12px;
+    background-color: var(--mandarin);
+    padding: 4px;
     border-style: outset;
-    border-color: orange;
-    border-width: 4px;
+    border-color: var(--mandarin);
+    border-width: 8px;
     border-radius: 20px;
     box-shadow: 0 0 24px 20px;
     
@@ -54,7 +64,7 @@ h1 {
     font-style: italic;
     font-size: medium;
     font-weight:700;
-    color: var(--bars);
+    color: var(--mandarin);
 }
 
 .back-img {
@@ -70,14 +80,18 @@ footer {
     margin-top: auto;
     height: 40px;
     padding-top: 12px;
-    background-color: var(--bars);
+    background-color: var(--mandarin);
     text-decoration: none;
-    
+}
+
+footer p {
+    margin: 0;
+    font-size:small;
 }
 
 footer a:hover, nav a:hover {
-    background-color: var(--background);
-    color: var(--bars);
+    background-color: var(--chocolate);
+    color: var(--mandarin);
     padding: 0.6rem;
     border-radius: 20px;
     box-shadow: 0 0 24px 20px;
@@ -88,13 +102,17 @@ footer a:hover, nav a:hover {
         max-width: 100%;
         height: 800px;
         border-style: outset;
-        border-color: orange;
+        border-color: var(--mandarin);
         border-width: 4px;
         border-radius: 20px;
     }
-    h1 {
-        background-color: var(--bars);
-        padding: 12px;
+    div img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+    div {
+        top: 22%;  
         box-shadow: 0 0 28px 24px;
     }
     .cen-txt {
@@ -107,8 +125,8 @@ footer a:hover, nav a:hover {
         font-weight: 600;
     }
     footer a:hover, nav a:hover {
-        background-color: var(--background);
-        color: var(--bars);
+        background-color: var(--chocolate);
+        color: var(--mandarin);
         padding: 1.8rem;
         border-radius: 20px;
     }
