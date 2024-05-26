@@ -23,10 +23,7 @@ body {
 header {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
-    text-align: center;
-    align-items: center;
 }
 h1 {
     color: var(--mandarin);
@@ -96,9 +93,15 @@ footer a:hover, nav a:hover {
     box-shadow: 0 0 28px 24px;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 767px) {
+    main {
+        height: 700px;
+        overflow: scroll;
+    }
+}
+@media screen and (min-width: 768px) {
     header {
-        gap: 50px;
+        gap: 52px;
     }
     nav a, footer a {
         padding: 1.8rem;
@@ -112,9 +115,17 @@ footer a:hover, nav a:hover {
         border-radius: 20px;
         box-shadow: 0 0 28px 24px;
     }
-    .mystory img {
+    .mystory p {
+        margin: 20px;
+    }
+    #whoami {
+        float: left;
+        width: 250px;
+        height: 150px
+    }
+    #mypc {
+        float: right;
         width: 250px;
         height: 150px;
-        
     }
 }

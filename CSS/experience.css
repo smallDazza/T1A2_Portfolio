@@ -23,16 +23,11 @@ body {
 header {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
-    text-align: center;
-    align-items: center;
 }
 h1 {
     color: var(--mandarin);
     background-color: var(--chocolate);
-    margin-left: auto;
-    margin-right: auto;
     padding: 12px;
     border-style: outset;
     border-color: var(--mandarin);
@@ -57,12 +52,13 @@ section {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-
+    width: 100%;
 }
 .ex-images {
     width: 100px;
     height: 450px;
     margin-top: auto;
+    margin-left: 20px;
     margin-bottom: auto;
 }
 
@@ -77,16 +73,19 @@ section {
 }
 
 .ex-text {
-    width: 250px;
-    height: 550px;
+    width: 100%;
     margin-top: 8px;
     margin-left: 16px;
+    margin-right: 8px;
     border-radius: 20px;
     box-shadow: 0 0 8px 4px var(--peppermint);
 }
 
 h3 {
+    width: 75%;
     margin: 0;
+    margin-left: auto;
+    margin-right: auto;
     color: var(--mandarin);
     background-color: var(--chocolate);
     padding: 8px;
@@ -119,9 +118,43 @@ footer a:hover, nav a:hover {
     box-shadow: 0 0 28px 24px;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 767px) {
+    section {
+        height: 700px;
+        overflow: scroll;
+    }
+}
+
+@media screen and (min-width: 768px) {
     header {
         gap: 52px;
+    }
+
+    section {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;; 
+        align-items: center;
+    }
+   nav, footer {
+    width: 100%;
+   }
+    .ex-images {
+        margin-top: 15px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 30%;
+    }
+    .ex-images-col {
+        flex: 10%;
+    }
+    .ex-images-col img {
+        width: 250px;
+        height: 150px; 
     }
     nav a, footer a {
         padding: 1.8rem;
@@ -135,10 +168,4 @@ footer a:hover, nav a:hover {
         border-radius: 20px;
         box-shadow: 0 0 28px 24px;
     }
-    .ex-images {
-        margin-top: 2dvw;
-        margin-bottom: 2dvw;
-        font-size: x-large;
-    }
-    
 }

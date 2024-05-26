@@ -44,7 +44,7 @@ div img {
 
 div {
     position: absolute;
-    top: 20%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: var(--mandarin);
@@ -69,8 +69,8 @@ div {
 
 .back-img {
     max-width: 100%;
-    height: 100dvh;
-    opacity: 0.7;
+    height: 88dvh;
+    opacity: 0.5;
     object-fit: cover;
 }
 
@@ -79,7 +79,7 @@ footer {
     padding: 0;
     margin-top: auto;
     height: 40px;
-    padding-top: 12px;
+    padding-top: 10px;
     background-color: var(--mandarin);
     text-decoration: none;
 }
@@ -97,10 +97,9 @@ footer a:hover, nav a:hover {
     box-shadow: 0 0 24px 20px;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
     .back-img {
         max-width: 100%;
-        height: 800px;
         border-style: outset;
         border-color: var(--mandarin);
         border-width: 4px;
@@ -111,14 +110,7 @@ footer a:hover, nav a:hover {
         height: 200px;
         border-radius: 50%;
     }
-    div {
-        top: 22%;  
-        box-shadow: 0 0 28px 24px;
-    }
-    .cen-txt {
-        font-size:  112px;
-        font-weight: 600;
-    }
+
     nav a, footer a {
         padding: 1.8rem;
         font-size: x-large;

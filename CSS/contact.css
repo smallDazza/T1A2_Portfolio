@@ -29,21 +29,21 @@ header {
     align-items: center;
 }
 h1 {
-    color: var(--mandarin);
+    color: var(--strawberry);
     background-color: var(--chocolate);
     padding: 12px;
     border-style: outset;
-    border-color: var(--mandarin);
+    border-color: var(--strawberry);
     border-width: 4px;
     border-radius: 20px;
-    box-shadow: 0 0 24px 20px var(--mandarin);
+    box-shadow: 0 0 24px 20px var(--strawberry);
 }
 
 nav {
     height: 50px;
     width: 100%;
     padding-top: 28px;
-    background-color: var(--mandarin);
+    background-color: var(--strawberry);
 }
 
 nav a, footer a {
@@ -68,7 +68,7 @@ footer {
     margin-top: auto;
     height: 40px;
     padding-top: 10px;
-    background-color: var(--mandarin);
+    background-color: var(--strawberry);
     text-decoration: none;
 }
 
@@ -85,7 +85,7 @@ footer a:hover, nav a:hover {
     box-shadow: 0 0 28px 24px;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
     header {
         gap: 52px;
     }
