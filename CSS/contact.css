@@ -74,12 +74,12 @@ footer {
 
 footer p {
     margin: 0;
-    font-size:small;
+    font-size:medium;
 }
 
-footer a:hover, nav a:hover {
+nav a:hover {
     background-color: var(--chocolate);
-    color: var(--mandarin);
+    color: var(--strawberry);
     padding: 0.6rem;
     border-radius: 20px;
     box-shadow: 0 0 28px 24px;
@@ -94,9 +94,9 @@ footer a:hover, nav a:hover {
         font-size: x-large;
         font-weight: 600;
     }
-    footer a:hover, nav a:hover {
+    nav a:hover {
         background-color: var(--chocolate);
-        color: var(--mandarin);
+        color: var(--strawberry);
         padding: 1.8rem;
         border-radius: 20px;
         box-shadow: 0 0 28px 24px;

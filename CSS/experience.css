@@ -120,7 +120,7 @@ footer a:hover, nav a:hover {
 
 @media screen and (max-width: 767px) {
     section {
-        height: 700px;
+        height: 650px;
         overflow: scroll;
     }
 }

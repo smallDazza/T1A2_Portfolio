@@ -49,19 +49,44 @@ nav a, footer a {
 }
 
 section {
-    display: grid;
-    height: 700px;
+    margin-top: 2dvh;
     width: 100%;
-    align-content: center;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
     gap: 4px;
-    background-color: var(--chocolate);
+    
 }
 
-div {
+#image1 img{
+    background-color: black;
+    height: 120px;
+    width: 120px;
+    border-radius: 12px;
+    border: var(--chocolate) solid 4px;   
+}
+
+#image2 img{
+    height: 120px;
+    width: 100px;
+    border-radius: 50%;
+    border: var(--chocolate) solid 4px;
+}
+
+.maintext {
     background-color: var(--cream);
-    
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+#image3 img{
+    height: 150px;
+    width: 200px;
+    border-radius: 12px;
+    border: var(--chocolate) solid 4px;
 }
 footer {
     width: 100%;
@@ -88,7 +113,7 @@ footer a:hover, nav a:hover {
 
 @media screen and (max-width: 767px) {
     section {
-        height: 700px;
+        height: 650px;
         overflow: scroll;
     }
 }
