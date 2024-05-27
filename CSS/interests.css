@@ -82,6 +82,9 @@ section {
     border-radius: 20px;
 }
 
+h3, article p {
+    color: var(--chocolate);
+}
 #image3 img{
     height: 150px;
     width: 200px;
