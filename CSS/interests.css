@@ -49,36 +49,44 @@ nav a, footer a {
 }
 
 section {
-    margin-top: 2dvh;
+    margin-top: auto;
+    margin-bottom: auto;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-   
-    gap: 4px;
-    
+    gap: 4px;  
 }
 
+.back-image {
+    background: url(../images/coding_PC_blurred.jpg);
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 20px;
+}
 #image1 img{
     background-color: black;
     height: 120px;
     width: 120px;
     border-radius: 12px;
-    border: var(--chocolate) solid 4px;   
+    border: var(--mandarin) solid 4px;   
 }
 
 #image2 img{
     height: 120px;
     width: 100px;
     border-radius: 50%;
-    border: var(--chocolate) solid 4px;
+    border: var(--mandarin) solid 4px;
 }
 
 .maintext {
     background-color: var(--cream);
-    height: 400px;
-    width: 400px;
+    height: auto;
+    width: 500px;
     border-radius: 20px;
 }
 
@@ -89,7 +97,7 @@ h3, article p {
     height: 150px;
     width: 200px;
     border-radius: 12px;
-    border: var(--chocolate) solid 4px;
+    border: var(--mandarin) solid 4px;
 }
 footer {
     width: 100%;
