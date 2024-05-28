@@ -51,15 +51,25 @@ nav a, footer a {
     text-decoration: none;
 }
 
+.back-image {
+    height: 75vh;
+    width: 100%;
+    background: url(../images/vintage-pink-telephone-composition.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
 .con-details {
     background-color: var(--peppermint);
     padding: 0.5rem;
-    width: 75%;
+    width: 65%;
     margin-top: 20dvw;
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px;
-    box-shadow: 0 0 8px 4px var(--peppermint);
+    box-shadow: 0 0 8px 8px var(--strawberry);
 }
 
 footer {
@@ -84,6 +94,12 @@ nav a:hover {
     border-radius: 20px;
     box-shadow: 0 0 28px 24px;
 }
+i::before {
+    color: var(--strawberry);
+    background-color: var(--chocolate);
+    width: 50px;
+    height: 35px;
+}
 
 @media screen and (min-width: 768px) {
     header {
@@ -102,7 +118,7 @@ nav a:hover {
         box-shadow: 0 0 28px 24px;
     }
     .con-details {
-        width: 700px;
+        width: 33%;
         margin-top: 2dvw;
         margin-bottom: 2dvw;
         font-size: x-large;
