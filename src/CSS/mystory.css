@@ -5,13 +5,13 @@
     --peppermint:#c2f2d0;
     --strawberry: #ffc5d9;
     --cream: #fdf5c9;
-    color: #ffcb85;
+    color: #6b3e26;
 }
 body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
-    background-color: var(--mandarin);
+    background-color: var(--chocolate);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     display: flex;
@@ -26,21 +26,21 @@ header {
     justify-content: center;
 }
 h1 {
-    color: var(--chocolate);
-    background-color: var(--mandarin);
+    color: var(--mandarin);
+    background-color: var(--chocolate);
     padding: 12px;
     border-style: outset;
-    border-color: var(--chocolate);
+    border-color: var(--mandarin);
     border-width: 4px;
     border-radius: 20px;
-    box-shadow: 0 0 24px 20px var(--chocolate);
+    box-shadow: 0 0 24px 20px var(--mandarin);
 }
 
 nav {
     height: 50px;
     width: 100%;
     padding-top: 28px;
-    background-color: var(--chocolate);
+    background-color: var(--mandarin);
 }
 
 nav a, footer a {
@@ -48,64 +48,43 @@ nav a, footer a {
     text-decoration: none;
 }
 
-section {
-    margin-top: auto;
-    margin-bottom: auto;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 4px;  
-}
-
 .back-image {
-    background: url(../images/coding_PC_blurred.jpg);
-    height: 600px;
+    min-height: 75vh;
+    background: url(../images/brown-futuristic-microchip-background.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    border-radius: 20px;
 }
-#image1 img{
-    background-color: black;
-    height: 120px;
-    width: 120px;
-    border-radius: 12px;
-    border: var(--mandarin) solid 4px;   
-}
-
-#image2 img{
-    height: 120px;
-    width: 100px;
-    border-radius: 50%;
-    border: var(--mandarin) solid 4px;
-}
-
-.maintext {
+.mystory {
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12px;
     background-color: var(--cream);
-    height: auto;
-    width: 500px;
+    padding: 0.5rem;
+    width: 85%;
     border-radius: 20px;
+    box-shadow: 0 0 8px 4px var(--mandarin);
 }
 
-h3, article p {
-    color: var(--chocolate);
+.mystory img {
+    width: 148px;
+    height: 88px;
+    border-radius: 10px;
 }
-#image3 img{
-    height: 150px;
-    width: 200px;
-    border-radius: 12px;
-    border: var(--mandarin) solid 4px;
+
+#mypc {
+    border: var(--chocolate) solid 4px;
 }
+
 footer {
     width: 100%;
     padding: 0;
     margin-top: auto;
     height: 40px;
     padding-top: 10px;
-    background-color: var(--chocolate);
+    background-color: var(--mandarin);
     text-decoration: none;
 }
 
@@ -115,7 +94,7 @@ footer p {
 }
 
 footer a:hover, nav a:hover {
-    background-color: var(--mandarin);
+    background-color: var(--chocolate);
     color: var(--mandarin);
     padding: 0.6rem;
     border-radius: 20px;
@@ -123,7 +102,7 @@ footer a:hover, nav a:hover {
 }
 
 @media screen and (max-width: 767px) {
-    section {
+    main {
         height: 650px;
         overflow: scroll;
     }
@@ -138,11 +117,23 @@ footer a:hover, nav a:hover {
         font-weight: 600;
     }
     footer a:hover, nav a:hover {
-        background-color: var(--mandarin);
-        color: var(--chocolate);
+        background-color: var(--chocolate);
+        color: var(--mandarin);
         padding: 1.8rem;
         border-radius: 20px;
         box-shadow: 0 0 28px 24px;
     }
-    
+    .mystory p {
+        margin: 20px;
+    }
+    #whoami {
+        float: left;
+        width: 250px;
+        height: 150px
+    }
+    #mypc {
+        float: right;
+        width: 250px;
+        height: 150px;
+    }
 }

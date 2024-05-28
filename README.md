@@ -6,26 +6,26 @@ Link to the GitHub repository:
 # **Purpose Of The 'Darren Small Portfolio' Website**
 The purpose of my portfolio website is to provide information about my personality, amibitions, skills and experience to prospective employers looking to employ a full stack web developer.
 Its layout, structure and design is to present my knowledge and skills in a direct environment of what they can expect I can deliver, should they decide to offer me employment.
-Also to give prospective employers the confidence of the professionalism I would be bringinmg to their companies.
+Also to give prospective employers the confidence of the professionalism I would be bringing to their companies.
 
 ## An Overview Of The Darren Small Portfolio Website. ##
-My Portfolio website consists of a total of 5 pages. These are a home page, my story page, experience page, Interests page and a contact me page.
+My Portfolio website consists of a total of 5 pages. These are: a 'home' page, 'my story' page, 'experience' page, 'interests' page and a 'contact me' page.
 The features of each of these pages are:
 - **Home Page**
     - Main landing page with the title of this website and a picture of myself.
 - **My Story Page**
     - This page explains who I am , my personality and professonal attributes I have.
-    - Also has a section describing my future ambitions both personally and to how to be involved in the progamming / development industry.
-    - With examples of blog pages I have followed to help in my education in the industry and help in solving issues I have encountered.
-    - Also can view an example of a blog page I have created combining both my love of programming and traveling:
+    - Has a section describing my future ambitions both personally and career focused to be involved in the progamming / development industry.
+    - Examples of blog pages I have followed to help in my education in the industry and help in solving issues I have encountered.
+    - Also can view an example of a blog page I have created combining both my love of programming and travelling:
         - Small Travellers Blog.
 - **Experience Page**
     - This page is designed to display my work experience over the last 15 years and how I have grown and achieved the current position I am currently employed in.
     - Employers can download my resume from this page.
 - **Interests Page**
-    - This is a page to explain my other interests in life away from work and how it reflects on my personality.
+    - This is a page to explain my career and other interests in life away from work and how it reflects on my personality.
 - **Contact Me Page**
-    - This has all my contact details and links to follow me or contact me when required.
+    - This has all my contact details, links to social media for contacting me.
 
 ## Navigation Of The Darren Small Portfolio Website. ##
 The first main landing page is the home page. On this page and every other page is a navigation bar which has links to the 4 pages of home, my story, experience and interests. Users can select the link of the desired page they want to view, which will open it in a new web browser tab.
@@ -38,7 +38,7 @@ The 3rd page, 'experience' has a link to download my resume in a pdf format.
 The 5th page, 'contact me' has links to view my social media and github accounts.
 
 ## The Design: Site Map ##
-Please see this image for the websites site map: 
+Please see this image for the website site map: 
 
 ![darren small portfolio site map](./docs/Portfolio%20site%20map.png)
 
@@ -72,5 +72,14 @@ This is a list of components used to display some features to enhance the engage
 - a header = to display the top of the page with a title of the page the user has gone to.
 - navigation bar = a section with links to navigate to other pages listed above. Using flexbox to adjust and the use of the pseudo-class 'hover' to highlight the link the user has hovered the cursor over.  
 - on some pages we are using the list component to display items in a list format.
-- article and div tags = have been used to group components to display images and text relating to the subject matter of the page. These are using flexbox to adjust to different screen sizes.
+- section , article and div tags = have been used to group components to display images, background colour, backgorund images and text relating to the subject matter of each page. These are using flexbox to adjust to different screen sizes.
 - footer = to display the bottom of the page with a link to the contact me page.
+
+## Tech Stack ##
+- HTML5: a main index.html + 4 other html files (1 or each page) located in the pages folder.
+- CSS: 5 css files (1 for each html file) located in the CSS folder.
+- All images used are located in the images folder.
+- Resume pdf located in the docs folder.
+- Imges for this README file also located in the docs folder.
+- Saved in my GutHub repository called 'DarrenSmall_T1A2'
+- Deployed as a live site using netlify. 
