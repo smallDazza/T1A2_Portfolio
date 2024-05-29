@@ -110,6 +110,12 @@ footer a:hover, nav a:hover {
         height: 200px;
         border-radius: 50%;
     }
+    div {
+        animation-name: profile;
+        animation-duration: 4s;
+        animation-delay: 0.5s;
+        animation-timing-function: linear;
+    }
 
     nav a, footer a {
         padding: 1.8rem;
@@ -122,5 +128,7 @@ footer a:hover, nav a:hover {
         padding: 1.8rem;
         border-radius: 20px;
     }
-    
+    @keyframes profile {
+        50% {transform: translate(50px) rotate(25deg);}
+    }
 }
