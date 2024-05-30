@@ -132,14 +132,14 @@ footer a:hover, nav a:hover {
         gap: 52px;
     }
     nav a, footer a {
-        padding: 1.8rem;
+        padding: 1rem;
         font-size: x-large;
         font-weight: 600;
     }
     footer a:hover, nav a:hover {
         background-color: var(--mandarin);
         color: var(--chocolate);
-        padding: 1.8rem;
+        padding: 1rem;
         border-radius: 20px;
         box-shadow: 0 0 28px 24px;
     }

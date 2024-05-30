@@ -8,7 +8,7 @@
     color: #6b3e26;
 }
 body {
-    min-height: 100vh;
+    max-height: 100vh;
     margin: 0;
     padding: 0;
     background-color: var(--chocolate);
@@ -69,7 +69,7 @@ div {
 
 .back-img {
     max-width: 100%;
-    height: 88dvh;
+    height: 83dvh;
     opacity: 0.5;
     object-fit: cover;
 }
@@ -78,7 +78,7 @@ footer {
     width: 100%;
     padding: 0;
     margin-top: auto;
-    height: 40px;
+    height: 60px;
     padding-top: 10px;
     background-color: var(--mandarin);
     text-decoration: none;
@@ -110,25 +110,31 @@ footer a:hover, nav a:hover {
         height: 200px;
         border-radius: 50%;
     }
+    /* animation for darrens image & name/title */
     div {
+        top: 20%;
+        left: 40%;
         animation-name: profile;
         animation-duration: 4s;
-        animation-delay: 0.5s;
-        animation-timing-function: linear;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
     }
 
     nav a, footer a {
-        padding: 1.8rem;
+        padding: 1.5rem;
         font-size: x-large;
         font-weight: 600;
     }
     footer a:hover, nav a:hover {
         background-color: var(--chocolate);
         color: var(--mandarin);
-        padding: 1.8rem;
+        padding: 1.5rem;
         border-radius: 20px;
     }
+    /* animation scaling in & out */
     @keyframes profile {
-        50% {transform: translate(50px) rotate(25deg);}
+        0% {transform: scale(0.75);}
+        100% {transform: scale(1);}
     }
 }
