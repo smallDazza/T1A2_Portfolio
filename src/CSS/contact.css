@@ -50,7 +50,7 @@ nav a, footer a {
     padding: 0.6rem;
     text-decoration: none;
 }
-
+/* Graphical Component 7 styling */
 .back-image {
     height: 75vh;
     width: 100%;
@@ -60,7 +60,7 @@ nav a, footer a {
     background-size: cover;
     position: relative;
 }
-
+/* Text Component 7 styling */
 .con-details {
     background-color: var(--peppermint);
     padding: 0.5rem;
@@ -94,17 +94,12 @@ nav a:hover {
     border-radius: 20px;
     box-shadow: 0 0 28px 24px;
 }
+/* Graphical Component 5 styling */
 i::before {
     color: var(--strawberry);
     background-color: var(--chocolate);
     width: 50px;
     height: 35px;
-}
-
-@media screen and (max-width: 1023px) {
-    main {
-        overflow: scroll;
-    }
 }
 
 @media screen and (min-width: 1024px) {

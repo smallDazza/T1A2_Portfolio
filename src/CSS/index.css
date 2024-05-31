@@ -19,7 +19,7 @@ body {
     text-align: center;
     align-items: center;
 }
-
+/* Text Component 1 = Navigation Bar styling */
 nav {
     height: 52px;
     width: 100%;
@@ -31,7 +31,7 @@ nav a, footer a {
     padding: 0.6rem;
     text-decoration: none;
 }
-
+/* Graphical Component 1 styling */
 .container {
     position: relative;  
 }
@@ -83,12 +83,12 @@ footer {
     background-color: var(--mandarin);
     text-decoration: none;
 }
-
+/* Text Component 2 = Footer */
 footer p {
     margin: 0;
     font-size:small;
 }
-
+/* Text Component 1 + Text Component 2  styling for pseudo-class: hover */
 footer a:hover, nav a:hover {
     background-color: var(--chocolate);
     color: var(--mandarin);
@@ -110,7 +110,7 @@ footer a:hover, nav a:hover {
         height: 200px;
         border-radius: 50%;
     }
-    /* animation for darrens image & name/title */
+    /* Graphical Component 1 animation for darrens image & name/title = only on larger screens*/
     div {
         top: 20%;
         left: 40%;
@@ -126,15 +126,16 @@ footer a:hover, nav a:hover {
         font-size: x-large;
         font-weight: 600;
     }
+    /* Text Component 1 + Text Component 2  styling for pseudo-class: hover */
     footer a:hover, nav a:hover {
         background-color: var(--chocolate);
         color: var(--mandarin);
         padding: 1.5rem;
         border-radius: 20px;
     }
-    /* animation scaling in & out */
+    /* Graphical Component 1 animation scaling in & out = only on larger screens*/
     @keyframes profile {
         0% {transform: scale(0.5);}
-        100% {transform: scale(0.75);}
+        100% {transform: scale(0.8);}
     }
 }

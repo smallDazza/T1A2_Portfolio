@@ -47,7 +47,7 @@ nav a, footer a {
     padding: 0.6rem;
     text-decoration: none;
 }
-
+/* Graphical Component 3 styling */
 section {
     display: flex;
     flex-direction: row;
@@ -71,7 +71,7 @@ section {
     border-radius: 20px;
     box-shadow: 0 0 8px 4px var(--chocolate);
 }
-
+/* Text Component 5 stying - article */
 .ex-text {
     width: 100%;
     margin-top: 8px;
@@ -120,15 +120,38 @@ footer a:hover, nav a:hover {
 
 @media screen and (max-width: 767px) {
     section {
-        height: 650px;
-        overflow: scroll;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    section::-webkit-scrollbar{
+        width: 16px;
+    }
+    section::-webkit-scrollbar-track{
+        background: var(--peppermint);
+    }
+    section::-webkit-scrollbar-thumb{
+        background-color: var(--chocolate);
+        border-radius: 12px;
+        border: 4px solid var(--chocolate);
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1131px){
     section {
         height: 700px;
-        overflow: scroll;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    section::-webkit-scrollbar{
+        width: 16px;
+    }
+    section::-webkit-scrollbar-track{
+        background: var(--peppermint);
+    }
+    section::-webkit-scrollbar-thumb{
+        background-color: var(--chocolate);
+        border-radius: 12px;
+        border: 4px solid var(--chocolate);
     }
 }
 
