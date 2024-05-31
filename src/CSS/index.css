@@ -8,7 +8,7 @@
     color: #6b3e26;
 }
 body {
-    max-height: 100vh;
+    height: 100vh;
     margin: 0;
     padding: 0;
     background-color: var(--chocolate);
@@ -134,7 +134,7 @@ footer a:hover, nav a:hover {
     }
     /* animation scaling in & out */
     @keyframes profile {
-        0% {transform: scale(0.75);}
-        100% {transform: scale(1);}
+        0% {transform: scale(0.5);}
+        100% {transform: scale(0.75);}
     }
 }

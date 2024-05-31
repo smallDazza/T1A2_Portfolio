@@ -8,7 +8,7 @@
     color: #6b3e26;
 }
 body {
-    min-height: 100vh;
+    height: 100vh;
     margin: 0;
     padding: 0;
     background-color: var(--peppermint);
@@ -125,14 +125,14 @@ footer a:hover, nav a:hover {
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px){
+@media screen and (min-width: 768px) and (max-width: 1131px){
     section {
         height: 700px;
         overflow: scroll;
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1132px) {
     header {
         gap: 52px;
     }
