@@ -112,7 +112,7 @@ i::before {
         gap: 52px;
     }
     nav a, footer a {
-        padding: 1.8rem;
+        padding: 1rem;
         font-size: x-large;
         font-weight: 600;
     }
