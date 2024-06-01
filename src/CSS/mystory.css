@@ -87,6 +87,12 @@ article {
     border: var(--chocolate) solid 4px;
 }
 
+h3 {
+    background-color: var(--mandarin);
+    border-radius: 16px;
+    
+}
+
 footer {
     width: 100%;
     padding: 0;
