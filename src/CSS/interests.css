@@ -8,7 +8,7 @@
     color: #ffcb85;
 }
 body {
-    height: 100vh;
+    height: 100dvh;
     margin: 0;
     padding: 0;
     background-color: var(--mandarin);
@@ -20,11 +20,6 @@ body {
     align-items: center;
 }
 
-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
 h1 {
     color: var(--chocolate);
     background-color: var(--mandarin);
@@ -40,6 +35,7 @@ nav {
     height: 50px;
     width: 100%;
     padding-top: 28px;
+    padding-bottom: 16px;
     background-color: var(--chocolate);
 }
 
@@ -61,7 +57,7 @@ section {
 
 .back-image {
     background: url(../images/coding_PC_blurred.jpg);
-    height: 650px;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

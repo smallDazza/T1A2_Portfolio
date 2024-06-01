@@ -9,7 +9,7 @@
 }
 
 body {
-    height: 100vh;
+    height: 100dvh;
     margin: 0;
     padding: 0;
     background-color: var(--chocolate);
@@ -21,11 +21,6 @@ body {
     align-items: center;
 }
 /* Text Component 3 = Header -h1 styling / reused across 4 pages */
-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
 h1 {
     color: var(--mandarin);
     background-color: var(--chocolate);
@@ -41,6 +36,7 @@ nav {
     height: 50px;
     width: 100%;
     padding-top: 28px;
+    padding-bottom: 16px;
     background-color: var(--mandarin);
 }
 
@@ -48,21 +44,32 @@ nav a, footer a {
     padding: 0.6rem;
     text-decoration: none;
 }
+
 /* Graphical Component 2 styling */
 .back-image {
-    min-height: 75vh;
+    width: 100%;
+    height: 100vh;
     background: url(../images/brown-futuristic-microchip-background.jpg);
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    margin-bottom:auto;
 }
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;  
+}
+
 /* Text Component 4 styling */
 .mystory {
-    margin-top: 12px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
     background-color: var(--cream);
     padding: 0.5rem;
     width: 85%;
@@ -103,7 +110,7 @@ footer a:hover, nav a:hover {
     box-shadow: 0 0 28px 24px;
 }
 
-@media screen and (max-width: 1349px) {
+@media screen and (max-width: 985px),(max-height: 650px) {
     main {
         overflow-y: scroll;
         overflow-x: hidden;
@@ -121,7 +128,7 @@ footer a:hover, nav a:hover {
     }
 }
 
-@media screen and (min-width: 1350px) {
+@media screen and (min-width: 1024px) {
     header {
         gap: 52px;
     }

@@ -8,7 +8,7 @@
     color: #6b3e26;
 }
 body {
-    height: 100vh;
+    height: 100dvh;
     margin: 0;
     padding: 0;
     background-color: var(--chocolate);
@@ -20,14 +20,6 @@ body {
     align-items: center;
 }
 
-header {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-}
 h1 {
     color: var(--strawberry);
     background-color: var(--chocolate);
@@ -43,6 +35,7 @@ nav {
     height: 50px;
     width: 100%;
     padding-top: 28px;
+    padding-bottom: 16px;
     background-color: var(--strawberry);
 }
 
@@ -50,9 +43,18 @@ nav a, footer a {
     padding: 0.6rem;
     text-decoration: none;
 }
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
 /* Graphical Component 7 styling */
 .back-image {
-    height: 75vh;
+    height: 100vh;
     width: 100%;
     background: url(../images/vintage-pink-telephone-composition.jpg);
     background-position: center;
@@ -65,7 +67,7 @@ nav a, footer a {
     background-color: var(--peppermint);
     padding: 0.5rem;
     width: 65%;
-    margin-top: 20dvw;
+    margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px;
@@ -120,8 +122,8 @@ i::before {
     }
     .con-details {
         width: 33%;
-        margin-top: 2dvw;
-        margin-bottom: 2dvw;
+        margin-top: 40px;
+        margin-bottom: 40px;
         font-size: x-large;
     }
     
