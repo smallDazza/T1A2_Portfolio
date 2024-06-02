@@ -42,6 +42,8 @@ The 3rd page, 'experience' has a link to download my resume in a pdf format.
 
 The 5th page, 'contact me' has links to view my social media and github accounts.
 
+When the screen view is a Mobile phone (<768px wide), i have added a scroll bar function for overflow. This way users know there is more content to scroll down to & can see the footer (contact me) link all the time to select when desired.
+
 ## The Design: Site Map ##
 Please see this image for the website site map: 
 
@@ -75,9 +77,9 @@ The layout of images, objects and text for desktop screens was taking into accou
 
 ![desktop screen wire frames](./docs/Desktop%20screen%20wireframes.png)
 
-## Components Used In Website ##
-The structure and design of the website has used both HTML 5 and CSS functions.
-This is a list of components used over all 5 pages to display some features to enhance the engagement of employers in understanding Darren Small as a person and as a valuable employee:
+## Components & Properties Used In Website ##
+The structure and design of the website has used both HTML 5 and CSS properties.
+This is a list of components and properties used over all 5 pages to display some features to enhance the engagement of employers in understanding Darren Small as a person and as a valuable developer employee:
 - **Re Used Text Components**
     - a header = to display the top of the page with a title of the page the user has gone to. Used on 4 pages
     - navigation bar = a section with links to navigate to other pages listed above. Using flexbox to adjust and the use of the pseudo-class 'hover' to highlight the link the user has hovered the cursor over.Used on all 5 pages
@@ -86,9 +88,14 @@ This is a list of components used over all 5 pages to display some features to e
     - 4 pages are using either section or article tags for text components to display content for the relative page. Text components styled with css.
     - 3 pages are also using the unordered list element to display text components relative to the subject or to list external links.
 - **Graphical Components**
-    - all 5 pages have graphical components (or mixed with text) to enhance the page content. Graphical components are styled with css.
-- **Animation Applied To Component**
-    - the home page has a animation function applied to a graphical component called 'ease-in-out'. This will transform the component on the page to different sizes giving the appearance of shrinking & expanding, on a infinite loop. **This only applies to larger screens - as looked a little strange on smaller screens**
+    - all 5 pages (+ the blog website) have graphical components (or mixed with text) to enhance the page content. Graphical components are styled with css.
+**CSS styling properties applied**
+- Colour Custom Properties: the colours from the colour palette have been saved as universal selectors using the '*' in each css file.
+- Text Font: on all pages the Arial font has been chosen as the first choice in the body element.
+- Background Color: this is used on all sections and components to make the content stand out.
+- Background Image: this is used on 4 pages to give tha main element area a style to match the page subject.
+- Flex Box: On all web pages (+ the blog website) Flex has been used for wrapping &/or centering of the header display, navigation bar, and the main content area for the text and graphical component sections.
+- Animation: the home page has a animation function applied to a graphical component called 'ease-in-out'. This will transform the component on the page to different sizes giving the appearance of shrinking & expanding, on a infinite loop. **This only applies to larger screens - as looked a little strange on smaller screens**
 
 ## Tech Stack ##
 - HTML5: a main index.html + 4 other html files (1 or each page) located in the pages folder.

@@ -44,6 +44,17 @@ nav a, footer a {
     padding: 0.6rem;
     text-decoration: none;
 }
+/* Flex Box used for wrapping boxes */
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    text-align: center; 
+    gap: 32px;
+}
 
 /* Graphical Component 2 styling */
 .back-image {
@@ -53,44 +64,31 @@ nav a, footer a {
     background-position: center;
     background-size: cover;
     position: relative;
-    margin-bottom:auto;
-}
-
-article {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;  
 }
 
 /* Text Component 4 styling */
-.mystory {
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
+article {
     background-color: var(--cream);
     padding: 0.5rem;
-    width: 85%;
     border-radius: 20px;
     box-shadow: 0 0 8px 4px var(--mandarin);
+    width: 350px;
+    height: auto;
 }
 /* Graphical Component 2 styling */
-.mystory img {
-    width: 148px;
-    height: 88px;
+article img {
+    width: 140px;
+    height: 80px;
     border-radius: 10px;
 }
 
-#mypc {
+.mystory2 img, .mystory3 img {
     border: var(--chocolate) solid 4px;
 }
 
 h3 {
     background-color: var(--mandarin);
     border-radius: 16px;
-    
 }
 
 footer {
@@ -116,7 +114,7 @@ footer a:hover, nav a:hover {
     box-shadow: 0 0 28px 24px;
 }
 
-@media screen and (max-width: 985px),(max-height: 650px) {
+@media screen and (max-width: 768px),(max-height: 900px) {
     main {
         overflow-y: scroll;
         overflow-x: hidden;
@@ -150,18 +148,16 @@ footer a:hover, nav a:hover {
         border-radius: 20px;
         box-shadow: 0 0 28px 24px;
     }
-    .mystory p {
+    div p {
         margin: 20px;
     }
+    .mystory3 {
+        width: 650px;
+    }
     /* Graphical Component 2 styling */
-    #whoami {
-        float: left;
-        width: 250px;
-        height: 150px
+    article img {
+        width: 200px;
+        height: 100px
     }
-    #mypc {
-        float: right;
-        width: 250px;
-        height: 150px;
-    }
+    
 }
