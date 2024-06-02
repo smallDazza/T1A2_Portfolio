@@ -18,9 +18,10 @@ The features of each and a image of Mobile view are:
     - This page explains who I am , my personality and professonal attributes I have.
     - Has a section describing my future ambitions both personally and career focused to be involved in the progamming / development industry.
     - Examples of blog pages I have followed to help in my education in the industry and help in solving issues I have encountered.
-    - Also can view an example of a blog page I have created combining both my love of programming and travelling:
-        - Small Travellers Blog.
     - ![Mobile My Story Page](./docs/My%20Story%20Page%20Mobile.png)
+    - Also can view an example of a blog web page I have created combining both my love of programming and travelling:
+        - Small Travellers Blog.
+        - ![Small Traveller Blog](./docs/Small%20Traveller%20Blog.png)
 - **Experience Page**
     - This page is designed to display my work experience over the last 15 years and how I have grown and achieved the current position I am currently employed in.
     - Employers can download my resume from this page.
