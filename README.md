@@ -89,7 +89,7 @@ This is a list of components and properties used over all 5 pages to display som
     - 3 pages are also using the unordered list element to display text components relative to the subject or to list external links.
 - **Graphical Components**
     - all 5 pages (+ the blog website) have graphical components (or mixed with text) to enhance the page content. Graphical components are styled with css.
-**CSS styling properties applied**
+ - **CSS styling properties applied**
 - Colour Custom Properties: the colours from the colour palette have been saved as universal selectors using the '*' in each css file.
 - Text Font: on all pages the Arial font has been chosen as the first choice in the body element.
 - Background Color: this is used on all sections and components to make the content stand out.
