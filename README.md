@@ -24,7 +24,10 @@ The features of each and a image of Mobile view are:
         - ![Small Traveller Blog](./docs/Small%20Traveller%20Blog.png)
 - **Experience Page**
     - This page is designed to display my work experience over the last 15 years and how I have grown and achieved the current position I am currently employed in.
-    - Employers can download my resume from this page.
+    - This contains a link to my current employers company website, should they be interested in viewing the current software product I am involved in on a day to day basis.
+        - this is an image of the website the link opens:
+        - ![myPak Solutions Website](./docs/Current%20employers%20website.png)
+    - Employers can also download my resume from this page.
     - ![Mobile Experience Page](./docs/Experience%20Page%20Mobile.png)
 - **Interests Page**
     - This is a page to explain my career and other interests in life away from work and how it reflects on my personality.
