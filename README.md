@@ -89,13 +89,13 @@ This is a list of components and properties used over all 5 pages to display som
     - 3 pages are also using the unordered list element to display text components relative to the subject or to list external links.
 - **Graphical Components**
     - all 5 pages (+ the blog website) have graphical components (or mixed with text) to enhance the page content. Graphical components are styled with css.
- - **CSS styling properties applied**
-- Colour Custom Properties: the colours from the colour palette have been saved as universal selectors using the '*' in each css file.
-- Text Font: on all pages the Arial font has been chosen as the first choice in the body element.
-- Background Color: this is used on all sections and components to make the content stand out.
-- Background Image: this is used on 4 pages to give tha main element area a style to match the page subject.
-- Flex Box: On all web pages (+ the blog website) Flex has been used for wrapping &/or centering of the header display, navigation bar, and the main content area for the text and graphical component sections.
-- Animation: the home page has a animation function applied to a graphical component called 'ease-in-out'. This will transform the component on the page to different sizes giving the appearance of shrinking & expanding, on a infinite loop. **This only applies to larger screens - as looked a little strange on smaller screens**
+ - **CSS Styling Properties Applied**
+    - Colour Custom Properties: the colours from the colour palette have been saved as universal selectors using the '*' in each css file.
+    - Text Font: on all pages the Arial font has been chosen as the first choice in the body element.
+    - Background Color: this is used on all sections and components to make the content stand out.
+    - Background Image: this is used on 4 pages to give tha main element area a style to match the page subject.
+    - Flex Box: On all web pages (+ the blog website) Flex has been used for wrapping &/or centering of the header display, navigation bar, and the main content area for the text and graphical component sections.
+    - Animation: the home page has a animation function applied to a graphical component called 'ease-in-out'. This will transform the component on the page to different sizes giving the appearance of shrinking & expanding, on a infinite loop. **This only applies to larger screens - as looked a little strange on smaller screens**
 
 ## Tech Stack ##
 - HTML5: a main index.html + 4 other html files (1 or each page) located in the pages folder.
